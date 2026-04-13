@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>後藤堅太郎 | 想夫恋宇美店 二代目 / FUKUOKA CONNECT 代表</title>
+<meta name="description" content="後藤堅太郎。宇美町の日田焼きそば『想夫恋 宇美店』二代目であり、FUKUOKA CONNECT代表。自店で実証したLP制作・SEO・LINE運用ノウハウを、糟屋エリアの中小企業へ届けています。">
+<link rel="canonical" href="https://fukuoka-connect.github.io/gotoh-kentaro/">
+<meta property="og:title" content="後藤堅太郎 | 鉄板の前で設計するLP屋">
+<meta property="og:description" content="想夫恋宇美店 二代目 / FUKUOKA CONNECT 代表。使う側の店主が設計するLP・SEO・LINE運用。">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://fukuoka-connect.github.io/gotoh-kentaro/">
+<meta property="og:image" content="https://fukuoka-connect.github.io/gotoh-kentaro/images/kentaro.jpeg">
+<meta property="og:site_name" content="後藤堅太郎 | FUKUOKA CONNECT">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "後藤堅太郎",
+  "alternateName": "Kentaro Gotoh",
+  "jobTitle": "想夫恋 宇美店 二代目 / FUKUOKA CONNECT 代表",
+  "image": "https://fukuoka-connect.github.io/gotoh-kentaro/images/kentaro.jpeg",
+  "worksFor": [
+    {
+      "@type": "Restaurant",
+      "name": "想夫恋 宇美店",
+      "description": "日田焼きそば専門店",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "糟屋郡宇美町",
+        "addressRegion": "福岡県",
+        "addressCountry": "JP"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "FUKUOKA CONNECT",
+      "url": "https://fukuoka-connect.github.io/"
+    }
+  ],
+  "description": "想夫恋宇美店の二代目として鉄板に立ちながら、自店で実証したLP制作・SEO・LINE運用ノウハウを糟屋エリアの中小企業へ届けている"
+}
+</script>
+<style>
+/* ===========================
+   RESET & BASE
+   =========================== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+:root {
+  --ink:        #1a1a1a;
+  --ink-soft:   #3a3530;
+  --mu:         #7a6a54;
+  --mu-light:   #a89a82;
+  --paper:      #f8f4ec;
+  --paper2:     #fdfbf5;
+  --paper3:     #eee5d2;
+  --accent:     #b8341c;
+  --accent-soft:#d66a4e;
+  --line:       #d4c9b4;
+  --line-soft:  #e8dfcb;
+  --white:      #ffffff;
+  --ease:       cubic-bezier(.25,.46,.45,.94);
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.9;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+ul { list-style: none; }
+img { max-width: 100%; height: auto; display: block; }
+.sm { font-size: 0.78em; }
+
+/* Base serif (for headings/numbers) */
+.serif { font-family: 'Shippori Mincho', serif; }
+.italic-en { font-family: 'Cormorant Garamond', serif; font-style: italic; font-weight: 300; }
+
+/* ===========================
+   LAYOUT
+   =========================== */
+.container {
+  width: 90%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.container-wide {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ===========================
+   NAV
+   =========================== */
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 18px 5%;
+  background: rgba(248,244,236,0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--line-soft);
+}
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-name {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.14em;
+  color: var(--ink);
+}
+.nav-cta {
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  padding: 10px 22px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: transparent;
+  transition: background 0.22s var(--ease), color 0.22s var(--ease);
+}
+.nav-cta:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* ===========================
+   HERO
+   =========================== */
+.hero {
+  position: relative;
+  padding: 160px 0 120px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: var(--paper);
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 120px;
+  right: -10%;
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(circle, rgba(184,52,28,0.06), transparent 70%);
+  z-index: 0;
+}
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 56px;
+  align-items: center;
+}
+.hero-photo {
+  position: relative;
+  z-index: 2;
+}
+.hero-photo-frame {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  margin-left: auto;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  box-shadow: 8px 12px 32px rgba(26,26,26,0.14);
+}
+.hero-photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.15) contrast(1.02);
+  transition: filter 0.9s var(--ease);
+}
+.hero-photo-frame:hover img { filter: grayscale(0) contrast(1); }
+.hero-photo-caption {
+  position: absolute;
+  bottom: -32px;
+  left: -20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--mu);
+  letter-spacing: 0.14em;
+  background: var(--paper);
+  padding: 8px 16px;
+}
+.hero-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--accent);
+  letter-spacing: 0.18em;
+  margin-bottom: 28px;
+  display: block;
+}
+.hero-label::before {
+  content: '— ';
+}
+.hero-intro {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500;
+  font-size: clamp(1.1rem, 3vw, 1.35rem);
+  color: var(--ink-soft);
+  margin-bottom: 40px;
+  line-height: 1.85;
+}
+.hero-catch {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: clamp(2.2rem, 7vw, 4.2rem);
+  line-height: 1.38;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin-bottom: 48px;
+}
+.hero-catch .line-1 { display: block; }
+.hero-catch .line-2 {
+  display: block;
+  padding-left: 2em;
+  color: var(--accent);
+}
+.hero-catch .line-3 {
+  display: block;
+  text-align: right;
+  font-weight: 500;
+  font-size: 0.76em;
+  color: var(--mu);
+  margin-top: 12px;
+}
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+  max-width: 480px;
+}
+.hero-meta-item {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  color: var(--mu);
+}
+.hero-meta-item strong {
+  display: block;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--ink);
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+}
+.hero-name-vertical {
+  position: absolute;
+  top: 50%;
+  right: 4%;
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 800;
+  font-size: clamp(3rem, 10vw, 8rem);
+  color: rgba(26,26,26,0.05);
+  letter-spacing: 0.3em;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* ===========================
+   SECTION COMMON
+   =========================== */
+section {
+  padding: 120px 0;
+  position: relative;
+}
+.sect-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: var(--accent);
+  letter-spacing: 0.22em;
+  display: block;
+  margin-bottom: 16px;
+}
+.sect-title {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  line-height: 1.5;
+  color: var(--ink);
+  margin-bottom: 48px;
+  letter-spacing: -0.01em;
+}
+.sect-title .highlight-line {
+  display: block;
+  position: relative;
+}
+.sect-title .emph {
+  background: linear-gradient(transparent 68%, rgba(184,52,28,0.18) 68%);
+}
+.prose p {
+  font-size: 1rem;
+  line-height: 2.05;
+  color: var(--ink-soft);
+  margin-bottom: 22px;
+}
+.prose p:last-child { margin-bottom: 0; }
+.prose .lead {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: var(--ink);
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.prose strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Why section */
+#why { background: var(--paper); }
+#why .story-pullquote {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  font-size: clamp(1.3rem, 3.8vw, 1.7rem);
+  line-height: 1.75;
+  color: var(--ink);
+  padding: 32px 0 32px 40px;
+  border-left: 3px solid var(--accent);
+  margin: 44px 0;
+  position: relative;
+}
+#why .story-pullquote::before {
+  content: '"';
+  position: absolute;
+  left: 8px;
+  top: -10px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  color: var(--accent);
+  opacity: 0.3;
+  line-height: 1;
+}
+
+/* Philosophy section */
+#philosophy {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 140px 0;
+  position: relative;
+  overflow: hidden;
+}
+#philosophy::before {
+  content: 'CONNECT';
+  position: absolute;
+  bottom: -80px;
+  left: -3%;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(10rem, 28vw, 22rem);
+  color: rgba(248,244,236,0.035);
+  line-height: 0.85;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  user-select: none;
+}
+#philosophy .sect-num { color: var(--accent-soft); }
+#philosophy .sect-title { color: var(--paper); }
+#philosophy .prose p { color: rgba(248,244,236,0.82); }
+#philosophy .prose .lead { color: var(--paper); }
+#philosophy .prose strong { color: var(--accent-soft); }
+
+.philosophy-pillars {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  margin-top: 60px;
+  position: relative;
+  z-index: 2;
+}
+.pillar {
+  padding-left: 60px;
+  position: relative;
+}
+.pillar-num {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--accent-soft);
+  line-height: 1;
+}
+.pillar-title {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--paper);
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
+}
+.pillar-text {
+  font-size: 0.92rem;
+  line-height: 1.9;
+  color: rgba(248,244,236,0.72);
+}
+
+/* What I do section */
+#whatido { background: var(--paper2); padding: 140px 0; }
+.service-list {
+  margin-top: 40px;
+}
+.service {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 28px;
+  align-items: start;
+  padding: 40px 0;
+  border-bottom: 1px solid var(--line);
+  transition: padding 0.48s var(--ease);
+}
+.service:last-child { border-bottom: none; }
+.service:hover { padding-left: 12px; }
+.service-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: var(--mu);
+  line-height: 1;
+  padding-top: 6px;
+  min-width: 28px;
+}
+.service-body h3 {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+.service-body p {
+  font-size: 0.9rem;
+  line-height: 1.85;
+  color: var(--ink-soft);
+  max-width: 420px;
+}
+.service-tag {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-align: right;
+  padding-top: 8px;
+  white-space: nowrap;
+}
+
+/* Proof section */
+#proof { background: var(--paper); padding: 140px 0; }
+.proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin: 56px 0;
+  padding: 48px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.proof-item {
+  text-align: center;
+}
+.proof-num {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 800;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  line-height: 1;
+  color: var(--ink);
+  display: block;
+}
+.proof-num .unit {
+  font-size: 0.45em;
+  font-weight: 500;
+  margin-left: 3px;
+  color: var(--mu);
+}
+.proof-label {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  color: var(--mu);
+}
+.works-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500;
+  font-size: 1.02rem;
+  color: var(--ink);
+  padding: 14px 0;
+  border-bottom: 1px solid var(--ink);
+  transition: gap 0.22s var(--ease);
+}
+.works-link:hover { gap: 20px; }
+.works-link .arr {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  color: var(--accent);
+}
+
+/* Report Sample section */
+#report { background: var(--paper2); padding: 140px 0; position: relative; overflow: hidden; }
+#report::before {
+  content: 'REPORT';
+  position: absolute;
+  top: 40px;
+  right: -3%;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(8rem, 20vw, 16rem);
+  color: rgba(26,26,26,0.035);
+  line-height: 0.85;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  user-select: none;
+  pointer-events: none;
+}
+.report-body {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 60px;
+  align-items: center;
+  margin-top: 48px;
+}
+.report-mockup {
+  position: relative;
+  aspect-ratio: 1 / 1.414;
+  background: var(--white);
+  box-shadow:
+    0 2px 4px rgba(26,26,26,0.04),
+    8px 16px 48px rgba(26,26,26,0.18),
+    18px 28px 72px rgba(26,26,26,0.08);
+  padding: 48px 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: var(--ink);
+  overflow: hidden;
+  transform: rotate(-1.2deg);
+  transition: transform 0.6s var(--ease);
+}
+.report-mockup:hover { transform: rotate(0) translateY(-4px); }
+.report-mockup::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: var(--accent);
+}
+.rm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 24px;
+}
+.rm-brand {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  color: var(--ink);
+}
+.rm-date {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.62rem;
+  color: var(--mu);
+  letter-spacing: 0.08em;
+}
+.rm-tag {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.6rem;
+  color: var(--accent);
+  letter-spacing: 0.16em;
+  margin-bottom: 10px;
+  display: block;
+}
+.rm-title {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  color: var(--ink);
+  margin-bottom: 6px;
+}
+.rm-sub {
+  font-size: 0.62rem;
+  color: var(--mu);
+  letter-spacing: 0.04em;
+  margin-bottom: 28px;
+  line-height: 1.6;
+}
+.rm-kpis {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line-soft);
+  border-bottom: 1px solid var(--line-soft);
+  margin-bottom: 22px;
+}
+.rm-kpi-n {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--ink);
+  line-height: 1;
+}
+.rm-kpi-n .u { font-size: 0.55em; color: var(--mu); font-weight: 500; margin-left: 2px; }
+.rm-kpi-l {
+  font-size: 0.54rem;
+  color: var(--mu);
+  margin-top: 4px;
+  letter-spacing: 0.04em;
+}
+.rm-sect-title {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+.rm-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+  height: 36px;
+  margin-bottom: 18px;
+}
+.rm-bar {
+  flex: 1;
+  background: linear-gradient(to top, var(--accent), var(--accent-soft));
+  opacity: 0.72;
+  border-radius: 1px;
+}
+.rm-bar:nth-child(1) { height: 45%; }
+.rm-bar:nth-child(2) { height: 62%; }
+.rm-bar:nth-child(3) { height: 38%; }
+.rm-bar:nth-child(4) { height: 78%; }
+.rm-bar:nth-child(5) { height: 55%; }
+.rm-bar:nth-child(6) { height: 88%; }
+.rm-bar:nth-child(7) { height: 70%; }
+.rm-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.rm-line {
+  height: 4px;
+  background: var(--line-soft);
+  border-radius: 2px;
+}
+.rm-line:nth-child(1) { width: 100%; }
+.rm-line:nth-child(2) { width: 82%; }
+.rm-line:nth-child(3) { width: 94%; }
+.rm-line:nth-child(4) { width: 68%; }
+.rm-footer {
+  position: absolute;
+  bottom: 24px;
+  left: 40px;
+  right: 40px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.58rem;
+  color: var(--mu);
+  letter-spacing: 0.08em;
+}
+.report-content {
+  padding-left: 8px;
+}
+.report-content .prose p { font-size: 0.96rem; }
+.report-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 32px;
+  padding: 16px 32px 16px 28px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: transform 0.22s var(--ease), background 0.48s var(--ease);
+}
+.report-cta:hover {
+  transform: translateY(-2px);
+  background: var(--accent);
+}
+.report-cta svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+.report-caption {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--mu);
+  letter-spacing: 0.08em;
+  display: block;
+  margin-top: 16px;
+}
+
+/* Voice section */
+#voice { background: var(--paper3); padding: 140px 0; }
+.voice-card {
+  background: var(--paper2);
+  padding: 48px 44px;
+  margin-bottom: 32px;
+  position: relative;
+  border-left: 2px solid var(--accent);
+}
+.voice-card:last-child { margin-bottom: 0; }
+.voice-card::before {
+  content: '"';
+  position: absolute;
+  top: -8px;
+  left: 32px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4.5rem;
+  color: var(--accent);
+  opacity: 0.25;
+  line-height: 1;
+}
+.voice-text {
+  font-family: 'Shippori Mincho', serif;
+  font-size: 1.05rem;
+  line-height: 2;
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+.voice-signature {
+  font-size: 0.85rem;
+  color: var(--mu);
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+.voice-signature strong {
+  color: var(--ink);
+  font-weight: 600;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 0.96rem;
+  margin-right: 10px;
+}
+
+/* Scarcity section */
+#scarcity {
+  background: var(--paper);
+  padding: 120px 0;
+  text-align: center;
+}
+.scarcity-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--accent);
+  letter-spacing: 0.2em;
+  margin-bottom: 24px;
+  display: block;
+}
+.scarcity-catch {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  line-height: 1.6;
+  color: var(--ink);
+  max-width: 560px;
+  margin: 0 auto 32px;
+}
+.scarcity-catch .strong-line {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 4px;
+}
+.scarcity-text {
+  font-size: 0.94rem;
+  line-height: 2;
+  color: var(--ink-soft);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* CTA section */
+#cta {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 140px 0;
+  position: relative;
+  overflow: hidden;
+}
+#cta::before {
+  content: 'TALK';
+  position: absolute;
+  top: -60px;
+  right: -5%;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(8rem, 22vw, 18rem);
+  color: rgba(248,244,236,0.04);
+  line-height: 0.85;
+  user-select: none;
+}
+.cta-inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.cta-label {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--accent-soft);
+  letter-spacing: 0.22em;
+  display: block;
+  margin-bottom: 24px;
+}
+.cta-title {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 3rem);
+  line-height: 1.5;
+  color: var(--paper);
+  margin-bottom: 28px;
+}
+.cta-sub {
+  font-size: 0.95rem;
+  line-height: 2;
+  color: rgba(248,244,236,0.78);
+  max-width: 520px;
+  margin: 0 auto 48px;
+}
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.btn-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 44px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 600;
+  font-size: 1.02rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.22s var(--ease), background 0.48s var(--ease);
+}
+.btn-main:hover {
+  transform: translateY(-3px);
+  background: var(--accent-soft);
+  color: var(--paper);
+}
+.btn-sub {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 36px;
+  background: transparent;
+  color: var(--paper);
+  border: 1px solid rgba(248,244,236,0.35);
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.22s var(--ease);
+}
+.btn-sub:hover {
+  border-color: var(--paper);
+  background: rgba(248,244,236,0.08);
+}
+.cta-note {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.88rem;
+  color: rgba(248,244,236,0.55);
+  letter-spacing: 0.05em;
+}
+
+/* FOOTER */
+footer {
+  background: var(--paper);
+  padding: 80px 0 40px;
+  border-top: 1px solid var(--line-soft);
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.footer-sig {
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--ink);
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.footer-sig-en {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--mu);
+  letter-spacing: 0.12em;
+  margin-bottom: 16px;
+}
+.footer-meta {
+  font-size: 0.82rem;
+  color: var(--mu);
+  line-height: 1.8;
+}
+.footer-links {
+  text-align: right;
+  font-size: 0.82rem;
+  color: var(--mu);
+  line-height: 1.9;
+}
+.footer-links a {
+  display: block;
+  transition: color 0.22s var(--ease);
+}
+.footer-links a:hover { color: var(--accent); }
+.footer-copy {
+  margin-top: 60px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line-soft);
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 0.78rem;
+  color: var(--mu-light);
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+/* REVEAL ANIMATION */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s var(--ease), transform 0.9s var(--ease);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.14s; }
+.reveal-delay-2 { transition-delay: 0.26s; }
+.reveal-delay-3 { transition-delay: 0.38s; }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero { padding: 120px 0 80px; }
+  .hero::before { width: 320px; height: 320px; }
+  .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+  .hero-photo { order: -1; }
+  .hero-photo-frame { max-width: 240px; margin: 0 auto; }
+  .hero-photo-caption { left: auto; right: -10px; bottom: -28px; }
+  .hero-catch .line-2 { padding-left: 0.5em; }
+  .hero-meta { gap: 24px; }
+  section { padding: 80px 0; }
+  #philosophy, #whatido, #proof, #voice, #cta { padding: 100px 0; }
+  .proof-grid { grid-template-columns: 1fr; gap: 28px; padding: 36px 0; }
+  .service { grid-template-columns: auto 1fr; }
+  .service-tag { grid-column: 2; padding-top: 4px; text-align: left; }
+  .report-body { grid-template-columns: 1fr; gap: 48px; }
+  .report-mockup { max-width: 320px; margin: 0 auto; padding: 36px 28px; }
+  .report-mockup .rm-footer { left: 28px; right: 28px; }
+  .voice-card { padding: 36px 28px; }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+  .footer-links { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-name">後藤堅太郎</a>
+    <a href="#cta" class="nav-cta">相談<span class="sm">する</span></a>
+  </div>
+</nav>
+
+<!-- ===========================
+     HERO
+     =========================== -->
+<section class="hero" id="top">
+  <div class="hero-name-vertical" aria-hidden="true">後藤堅太郎</div>
+  <div class="container hero-inner">
+    <div>
+      <span class="hero-label">Kentaro Gotoh / FUKUOKA CONNECT</span>
+      <p class="hero-intro">はじめまして、後藤堅太郎<span class="sm">と</span>申します。<br>宇美町<span class="sm">で</span>焼きそば<span class="sm">を</span>焼き、糟屋エリア<span class="sm">で</span>LP<span class="sm">を</span>つくっています。</p>
+      <h1 class="hero-catch">
+        <span class="line-1">「届けたいこと」<span class="sm">を、</span></span>
+        <span class="line-2">「届けたい人」<span class="sm">へ</span></span>
+        <span class="line-3">—— 設計する<span class="sm">のが</span>仕事<span class="sm">です。</span></span>
+      </h1>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          BASE
+          <strong>福岡県糟屋郡</strong>
+        </div>
+        <div class="hero-meta-item">
+          SINCE
+          <strong>2026</strong>
+        </div>
+        <div class="hero-meta-item">
+          WORKS
+          <strong>21 samples</strong>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="hero-photo-frame">
+        <img src="images/kentaro.jpeg" alt="後藤 堅太郎 — FUKUOKA CONNECT 代表 / 想夫恋 宇美店 二代目">
+        <span class="hero-photo-caption">— Kentaro, 2026</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     WHY
+     =========================== -->
+<section id="why">
+  <div class="container">
+    <span class="sect-num reveal">01 — Why</span>
+    <h2 class="sect-title reveal">
+      <span class="highlight-line">どうして、</span>
+      <span class="highlight-line">この仕事<span class="sm">を</span>しているか。</span>
+    </h2>
+    <div class="prose reveal">
+      <p class="lead">僕<span class="sm">の</span>本業<span class="sm">は、</span>Web制作者<span class="sm">では</span>ありません。<br>宇美町<span class="sm">で</span>焼きそば<span class="sm">を</span>焼いている、飲食店<span class="sm">の</span>店主<span class="sm">です。</span></p>
+      <p>
+        福岡県糟屋郡宇美町<span class="sm">に</span>ある日田焼きそば<strong>「想夫恋 宇美店」</strong><span class="sm">の</span>二代目<span class="sm">として、</span>毎日鉄板<span class="sm">に</span>向かっています。父<span class="sm">から</span>受け継いだ店<span class="sm">を、</span>地元<span class="sm">の</span>皆さん<span class="sm">と</span>一緒<span class="sm">に</span>守っていく—— それが本来<span class="sm">の</span>僕<span class="sm">の</span>仕事<span class="sm">です。</span>
+      </p>
+      <p>
+        でも数年前、ある壁<span class="sm">に</span>ぶつかりました。「うち<span class="sm">の</span>焼きそば、本当<span class="sm">に</span>美味しい<span class="sm">のに、</span>なぜ新しい<span class="sm">お</span>客さん<span class="sm">が</span>来ない<span class="sm">んだろう」</span>——良いもの<span class="sm">を</span>作っている<span class="sm">のに、</span>それ<span class="sm">を</span>知って<span class="sm">もらう</span>手段<span class="sm">が</span>なかった<span class="sm">んです。</span>
+      </p>
+    </div>
+    <blockquote class="story-pullquote reveal">
+      良いもの<span class="sm">は、</span>ただ在る<span class="sm">だけでは</span>届かない。<br>
+      届ける人<span class="sm">が</span>いて、初めて出会い<span class="sm">が</span>生まれる。
+    </blockquote>
+    <div class="prose reveal">
+      <p>
+        そこから僕<span class="sm">は、</span>独学<span class="sm">で</span>Webマーケティング<span class="sm">と</span>LP制作<span class="sm">を</span>学び始めました。自分<span class="sm">の</span>店<span class="sm">の</span>LP<span class="sm">を</span>作り、SEO<span class="sm">を</span>整え、GA4<span class="sm">で</span>数字<span class="sm">を</span>見て、LINE<span class="sm">で</span>再来店<span class="sm">を</span>促す。<strong>全<span class="sm">て</span>自分<span class="sm">の</span>店<span class="sm">で</span>実証済<span class="sm">みの</span>手法</strong><span class="sm">を、</span>同じよう<span class="sm">に</span>悩む地域<span class="sm">の</span>方<span class="sm">に</span>届けたい。その想い<span class="sm">から</span>FUKUOKA CONNECT<span class="sm">を</span>立ち上げました。
+      </p>
+      <p>
+        つまり僕<span class="sm">は、</span>「作る側<span class="sm">の</span>Web屋」<span class="sm">では</span>なく、<strong>「実際<span class="sm">に</span>使う側<span class="sm">の</span>店主」</strong><span class="sm">として</span>LP<span class="sm">を</span>設計しています。机上<span class="sm">の</span>理論<span class="sm">じゃない、</span>毎日鉄板<span class="sm">の</span>前<span class="sm">で</span>考えた等身大<span class="sm">の</span>答え<span class="sm">を</span>お渡し<span class="sm">します。</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     PHILOSOPHY
+     =========================== -->
+<section id="philosophy">
+  <div class="container">
+    <span class="sect-num reveal">02 — Philosophy</span>
+    <h2 class="sect-title reveal">
+      届く<span class="sm">を、</span><span class="emph">設計する</span>。
+    </h2>
+    <div class="prose reveal">
+      <p class="lead">FUKUOKA CONNECT<span class="sm">の</span>仕事<span class="sm">には、</span>3<span class="sm">つの</span>軸<span class="sm">が</span>あります。</p>
+    </div>
+    <div class="philosophy-pillars">
+      <div class="pillar reveal">
+        <span class="pillar-num">i.</span>
+        <h3 class="pillar-title">受け手<span class="sm">から</span>逆算<span class="sm">する</span></h3>
+        <p class="pillar-text">
+          「何<span class="sm">を</span>作る<span class="sm">か</span>」<span class="sm">より</span>先<span class="sm">に、</span>「誰<span class="sm">が、</span>どんな気持ち<span class="sm">で</span>これ<span class="sm">を</span>見る<span class="sm">か</span>」<span class="sm">を</span>考えます。CV<span class="sm">ボタンの</span>文言<span class="sm">は、</span>ファーストビュー<span class="sm">を</span>書く前<span class="sm">に</span>決まっている<span class="sm">べき</span>だ<span class="sm">と</span>思っています。
+        </p>
+      </div>
+      <div class="pillar reveal reveal-delay-1">
+        <span class="pillar-num">ii.</span>
+        <h3 class="pillar-title">情報<span class="sm">より</span>、感情<span class="sm">を</span>先<span class="sm">に</span>動かす</h3>
+        <p class="pillar-text">
+          人<span class="sm">は</span>感情<span class="sm">で</span>動き、論理<span class="sm">で</span>正当化<span class="sm">します。</span>機能説明<span class="sm">や</span>スペック表<span class="sm">の</span>前<span class="sm">に、</span>「ああ、この店<span class="sm">いい</span>な」<span class="sm">と</span>思ってもらえる空気感<span class="sm">を</span>つくる。順番<span class="sm">が</span>逆<span class="sm">だと、</span>どれだけ情報<span class="sm">を</span>並べ<span class="sm">ても</span>届きません。
+        </p>
+      </div>
+      <div class="pillar reveal reveal-delay-2">
+        <span class="pillar-num">iii.</span>
+        <h3 class="pillar-title">85点<span class="sm">で</span>動く、100点<span class="sm">を</span>待たない</h3>
+        <p class="pillar-text">
+          完璧<span class="sm">な</span>提案<span class="sm">を</span>遅く出す<span class="sm">より、</span>改善<span class="sm">できる</span>提案<span class="sm">を</span>早く出す。最初<span class="sm">から</span>100点<span class="sm">を</span>目指<span class="sm">さず、</span>クライアント<span class="sm">との</span>対話<span class="sm">の</span>中<span class="sm">で</span>90点、95点<span class="sm">へと</span>磨いていく。速度<span class="sm">こそが、</span>小さな事業<span class="sm">の</span>武器<span class="sm">です。</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     WHAT I DO
+     =========================== -->
+<section id="whatido">
+  <div class="container">
+    <span class="sect-num reveal">03 — What I do</span>
+    <h2 class="sect-title reveal">
+      <span class="highlight-line">できる<span class="sm">こと</span>は、</span>
+      <span class="highlight-line">意外<span class="sm">と</span>シンプル<span class="sm">です。</span></span>
+    </h2>
+    <div class="prose reveal">
+      <p>
+        「Web<span class="sm">の</span>こと全部<span class="sm">やります」</span>とは言いません。その代わり、3<span class="sm">つの</span>領域<span class="sm">に</span>絞って、深く<span class="sm">やります。</span>
+      </p>
+    </div>
+    <div class="service-list">
+      <div class="service reveal">
+        <span class="service-num">i.</span>
+        <div class="service-body">
+          <h3>LP制作</h3>
+          <p>
+            単なる会社案内<span class="sm">ではなく、</span>「読んだ人<span class="sm">が</span>行動<span class="sm">する」</span>ため<span class="sm">の</span>ページ<span class="sm">を</span>設計<span class="sm">します。</span>SEO・GA4計測・OGP全て実装済み<span class="sm">で</span>納品。
+          </p>
+        </div>
+        <span class="service-tag">— 1〜2週間<span class="sm">で</span>納品</span>
+      </div>
+      <div class="service reveal reveal-delay-1">
+        <span class="service-num">ii.</span>
+        <div class="service-body">
+          <h3>SEO・GA4分析</h3>
+          <p>
+            データ<span class="sm">を</span>並べる<span class="sm">だけの</span>レポート<span class="sm">は</span>作りません。「何<span class="sm">が</span>起きているか」<span class="sm">と</span>「次<span class="sm">に</span>何<span class="sm">を</span>すべきか」<span class="sm">を</span>1枚<span class="sm">で</span>お届け<span class="sm">します。</span>
+          </p>
+        </div>
+        <span class="service-tag">— 月次レポート</span>
+      </div>
+      <div class="service reveal reveal-delay-2">
+        <span class="service-num">iii.</span>
+        <div class="service-body">
+          <h3>LINE公式運用支援</h3>
+          <p>
+            「配信<span class="sm">し</span>すぎず、忘れられない」距離感<span class="sm">を</span>設計。クライアント<span class="sm">の</span>お客様<span class="sm">と</span>長い関係<span class="sm">を</span>結ぶ<span class="sm">ための</span>導線<span class="sm">づくりです。</span>
+          </p>
+        </div>
+        <span class="service-tag">— 初期設計＋運用代行</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     PROOF
+     =========================== -->
+<section id="proof">
+  <div class="container">
+    <span class="sect-num reveal">04 — Proof</span>
+    <h2 class="sect-title reveal">
+      <span class="highlight-line">数字<span class="sm">では</span>なく、</span>
+      <span class="highlight-line">形<span class="sm">に</span>なった<span class="sm">もの</span><span class="sm">で、</span>お見せ<span class="sm">します。</span></span>
+    </h2>
+    <div class="prose reveal">
+      <p>
+        「実績<span class="sm">は</span>何件<span class="sm">ですか」</span>と聞かれる<span class="sm">ことが</span>あります。でも僕<span class="sm">は、</span>件数<span class="sm">より</span>「どんな業種<span class="sm">を、</span>どんな想い<span class="sm">で</span>作ってきた<span class="sm">か」</span><span class="sm">を</span>見<span class="sm">てもらった</span>ほう<span class="sm">が</span>早い<span class="sm">と</span>思っています。
+      </p>
+    </div>
+    <div class="proof-grid reveal">
+      <div class="proof-item">
+        <span class="proof-num">21<span class="unit">業種</span></span>
+        <span class="proof-label">制作サンプル</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-num">1<span class="unit">人</span></span>
+        <span class="proof-label">設計から納品まで</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-num">48<span class="unit">時間</span></span>
+        <span class="proof-label">返信・対応速度</span>
+      </div>
+    </div>
+    <a class="works-link reveal" href="https://fukuoka-connect.github.io/works.html">
+      制作サンプル一覧<span class="sm">を</span>見る
+      <span class="arr">—→</span>
+    </a>
+  </div>
+</section>
+
+<!-- ===========================
+     REPORT SAMPLE
+     =========================== -->
+<section id="report">
+  <div class="container">
+    <span class="sect-num reveal">05 — Report sample</span>
+    <h2 class="sect-title reveal">
+      <span class="highlight-line">データ<span class="sm">を、</span></span>
+      <span class="highlight-line">次<span class="sm">の</span>一手<span class="sm">に</span><span class="emph">翻訳<span class="sm">します</span></span>。</span>
+    </h2>
+    <div class="report-body">
+      <!-- PDFミニチュア（CSSモックアップ） -->
+      <div class="report-mockup reveal" aria-hidden="true">
+        <div class="rm-header">
+          <span class="rm-brand">FUKUOKA CONNECT</span>
+          <span class="rm-date">2026.04.13</span>
+        </div>
+        <span class="rm-tag">— Monthly Analytics Report</span>
+        <h4 class="rm-title">PINON<br>月次分析レポート</h4>
+        <p class="rm-sub">糟屋郡・Bar / GA4 &amp; Search Console</p>
+
+        <div class="rm-kpis">
+          <div>
+            <div class="rm-kpi-n">312<span class="u">PV</span></div>
+            <div class="rm-kpi-l">PAGE VIEW</div>
+          </div>
+          <div>
+            <div class="rm-kpi-n">+48<span class="u">%</span></div>
+            <div class="rm-kpi-l">MoM</div>
+          </div>
+          <div>
+            <div class="rm-kpi-n">8.2<span class="u">%</span></div>
+            <div class="rm-kpi-l">CVR</div>
+          </div>
+        </div>
+
+        <div class="rm-sect-title">TRAFFIC TREND</div>
+        <div class="rm-chart">
+          <div class="rm-bar"></div>
+          <div class="rm-bar"></div>
+          <div class="rm-bar"></div>
+          <div class="rm-bar"></div>
+          <div class="rm-bar"></div>
+          <div class="rm-bar"></div>
+          <div class="rm-bar"></div>
+        </div>
+
+        <div class="rm-sect-title">NEXT ACTION</div>
+        <div class="rm-lines">
+          <div class="rm-line"></div>
+          <div class="rm-line"></div>
+          <div class="rm-line"></div>
+          <div class="rm-line"></div>
+        </div>
+
+        <div class="rm-footer">
+          <span>Kentaro Gotoh</span>
+          <span>P. 01 / 08</span>
+        </div>
+      </div>
+
+      <!-- 本文 -->
+      <div class="report-content">
+        <div class="prose reveal">
+          <p class="lead">数字<span class="sm">を</span>並べる<span class="sm">だけの</span>レポート<span class="sm">は、</span>作りません。</p>
+          <p>
+            毎月末、クライアント<span class="sm">に</span>お届け<span class="sm">している</span>分析レポート<span class="sm">の</span>サンプル<span class="sm">です。</span>GA4<span class="sm">と</span>Search Console<span class="sm">の</span>生データ<span class="sm">を、</span>「<strong>何<span class="sm">が</span>起きた<span class="sm">か</span></strong>」<span class="sm">と</span>「<strong>次<span class="sm">に</span>何<span class="sm">を</span>すべきか</strong>」<span class="sm">の</span>2軸<span class="sm">で</span>読み解きます。
+          </p>
+          <p>
+            専門用語<span class="sm">は</span>極力使わず、現場<span class="sm">で</span>判断<span class="sm">に</span>使える言葉<span class="sm">で</span>書く。忙しい店主<span class="sm">が</span>5分<span class="sm">で</span>読<span class="sm">めて、</span>翌日<span class="sm">から</span>動ける内容<span class="sm">を</span>目指しています。
+          </p>
+        </div>
+        <a class="report-cta reveal" href="PiNON_Bar_分析レポート_20260413.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm0 7V3.5L19.5 9H14z"/></svg>
+          サンプルレポート<span class="sm">を</span>開く
+        </a>
+        <span class="report-caption reveal">— PINON / 糟屋郡・Bar / 2026.04.13 issue</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     VOICE
+     =========================== -->
+<section id="voice">
+  <div class="container">
+    <span class="sect-num reveal">06 — Voice</span>
+    <h2 class="sect-title reveal">
+      <span class="highlight-line">関わって<span class="sm">くれた</span>方<span class="sm">から</span>の、</span>
+      <span class="highlight-line">言葉<span class="sm">です。</span></span>
+    </h2>
+    <div class="voice-card reveal">
+      <p class="voice-text">
+        最初<span class="sm">は</span>「LP<span class="sm">って</span>何？」<span class="sm">という</span>状態<span class="sm">から</span>でしたが、後藤さん<span class="sm">は</span>専門用語<span class="sm">を</span>使わず、一つずつ噛み砕いて説明<span class="sm">してくれました。</span>納品スピード<span class="sm">も</span>想像<span class="sm">の</span>倍以上<span class="sm">速くて、</span>完成<span class="sm">してから</span>「お店<span class="sm">の</span>空気感<span class="sm">が</span>ちゃんと伝わるページ<span class="sm">に</span>なっている」<span class="sm">と</span>感じました。
+      </p>
+      <div class="voice-signature">
+        <strong>mAKIBo 様</strong>花火鑑賞士／東京
+      </div>
+    </div>
+    <div class="voice-card reveal reveal-delay-1">
+      <p class="voice-text">
+        GA4<span class="sm">や</span>SEO<span class="sm">は</span>全く<span class="sm">わから</span>なかった<span class="sm">んですが、</span>毎月<span class="sm">の</span>レポート<span class="sm">を</span>見<span class="sm">て、</span>「あ、次<span class="sm">は</span>これ<span class="sm">を</span>やれば<span class="sm">いい</span>んだ」<span class="sm">と</span>迷わなくなりました。数字<span class="sm">の</span>奥<span class="sm">にある</span>お客様<span class="sm">の</span>気持ち<span class="sm">を、</span>一緒<span class="sm">に</span>読み解い<span class="sm">てくれる</span>感じ<span class="sm">が</span>心強いです。
+      </p>
+      <div class="voice-signature">
+        <strong>SERA 様</strong>糟屋郡・自動車販売業
+      </div>
+    </div>
+    <div class="voice-card reveal reveal-delay-2">
+      <p class="voice-text">
+        価格<span class="sm">の</span>割<span class="sm">に</span>やって<span class="sm">くれる</span>ことが多すぎて、正直びっくり<span class="sm">しました。</span>「85点<span class="sm">で</span>出<span class="sm">して、</span>一緒<span class="sm">に</span>磨いていこう」<span class="sm">という</span>姿勢<span class="sm">が</span>心地よく、今後<span class="sm">も</span>長<span class="sm">く</span>お願い<span class="sm">したい</span>方です。
+      </p>
+      <div class="voice-signature">
+        <strong>PINON 様</strong>糟屋郡・Bar
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===========================
+     SCARCITY
+     =========================== -->
+<section id="scarcity">
+  <div class="container">
+    <span class="scarcity-label reveal">— One at a time</span>
+    <p class="scarcity-catch reveal">
+      <span class="strong-line">1ヶ月<span class="sm">に</span>、お請け<span class="sm">できる</span>のは数件<span class="sm">まで。</span></span>
+    </p>
+    <p class="scarcity-text reveal">
+      設計<span class="sm">から</span>納品、アフターフォロー<span class="sm">まで</span>全<span class="sm">て</span>1人<span class="sm">で</span>行っている<span class="sm">ため、</span>同時進行<span class="sm">できる</span>案件数<span class="sm">に</span>限界<span class="sm">が</span>あります。<br>
+      その代わり、お預かり<span class="sm">した</span>案件<span class="sm">には、</span>全力<span class="sm">で</span>向き合います。
+    </p>
+  </div>
+</section>
+
+<!-- ===========================
+     CTA
+     =========================== -->
+<section id="cta">
+  <div class="container cta-inner">
+    <span class="cta-label reveal">— Let's talk</span>
+    <h2 class="cta-title reveal">
+      まず<span class="sm">は、</span>お話<span class="sm">だけ</span>でも。
+    </h2>
+    <p class="cta-sub reveal">
+      「LP<span class="sm">を</span>作る<span class="sm">か</span>まだ決めていない」<span class="sm">でも</span>構いません。<br>
+      現状<span class="sm">の</span>お悩み<span class="sm">を</span>聞かせて<span class="sm">ください。</span>無理<span class="sm">な</span>営業<span class="sm">は</span>一切<span class="sm">しません。</span>
+    </p>
+    <div class="cta-buttons reveal">
+      <a class="btn-main" href="#">LINE<span class="sm">で</span>相談<span class="sm">する</span> <span class="italic-en">—→</span></a>
+      <a class="btn-sub" href="https://fukuoka-connect.github.io/">FUKUOKA CONNECT<span class="sm">を</span>見る</a>
+    </div>
+    <p class="cta-note">返信<span class="sm">は</span>24〜48時間以内<span class="sm">に</span>必ず<span class="sm">お返しします。</span></p>
+  </div>
+</section>
+
+<!-- ===========================
+     FOOTER
+     =========================== -->
+<footer>
+  <div class="container-wide">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-sig">後藤 堅太郎</div>
+        <div class="footer-sig-en">Kentaro Gotoh</div>
+        <div class="footer-meta">
+          想夫恋 宇美店 二代目 / FUKUOKA CONNECT 代表<br>
+          福岡県糟屋郡｜Web制作・SEO・LINE運用｜since 2026
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="https://fukuoka-connect.github.io/">FUKUOKA CONNECT</a>
+        <a href="https://fukuoka-connect.github.io/works.html">制作サンプル一覧</a>
+        <a href="#cta">相談する</a>
+      </div>
+    </div>
+    <div class="footer-copy">
+      © 2026 Kentaro Gotoh. Designed with intention.
+    </div>
+  </div>
+</footer>
+
+<!-- SCROLL REVEAL -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+    reveals.forEach(function(el) { observer.observe(el); });
+  } else {
+    reveals.forEach(function(el) { el.classList.add('visible'); });
+  }
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(e) {
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        window.scrollTo({
+          top: target.getBoundingClientRect().top + window.pageYOffset - 60,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
+
+</body>
+</html>
