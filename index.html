@@ -162,6 +162,28 @@ img { max-width: 100%; height: auto; display: block; }
   background: radial-gradient(circle, rgba(184,52,28,0.06), transparent 70%);
   z-index: 0;
 }
+.hero-deco-smoke {
+  position: absolute;
+  top: 80px;
+  left: -60px;
+  width: 280px;
+  opacity: 0.14;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+}
+.hero-deco-hanko {
+  position: absolute;
+  bottom: 80px;
+  right: 6%;
+  width: 92px;
+  opacity: 0.78;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  user-select: none;
+  z-index: 3;
+}
 .hero-inner {
   position: relative;
   z-index: 2;
@@ -362,10 +384,27 @@ section {
   opacity: 0.3;
   line-height: 1;
 }
+#why { position: relative; overflow: hidden; }
+.why-deco-brush {
+  position: absolute;
+  top: 60%;
+  right: -120px;
+  width: 560px;
+  opacity: 0.16;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  user-select: none;
+  transform: rotate(-6deg);
+  z-index: 0;
+}
+#why .container { position: relative; z-index: 1; }
 
 /* Philosophy section */
 #philosophy {
-  background: var(--ink);
+  background:
+    linear-gradient(rgba(26,26,26,0.72), rgba(26,26,26,0.88)),
+    url('images/deco-04-sumi-bg.jpg') center/cover no-repeat,
+    var(--ink);
   color: var(--paper);
   padding: 140px 0;
   position: relative;
@@ -943,6 +982,16 @@ footer {
   color: var(--ink);
   letter-spacing: 0.08em;
   margin-bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+}
+.footer-sig .hanko {
+  width: 48px;
+  height: 48px;
+  opacity: 0.88;
+  transform: rotate(-6deg);
+  user-select: none;
 }
 .footer-sig-en {
   font-family: 'Cormorant Garamond', serif;
@@ -998,6 +1047,10 @@ footer {
 @media (max-width: 768px) {
   .hero { padding: 120px 0 80px; }
   .hero::before { width: 320px; height: 320px; }
+  .hero-deco-smoke { width: 180px; top: 60px; left: -40px; opacity: 0.1; }
+  .hero-deco-hanko { width: 64px; bottom: 24px; right: 6%; }
+  .why-deco-brush { width: 420px; right: -80px; opacity: 0.12; }
+  .footer-sig .hanko { width: 36px; height: 36px; }
   .hero-inner { grid-template-columns: 1fr; gap: 48px; }
   .hero-photo { order: -1; }
   .hero-photo-frame { max-width: 240px; margin: 0 auto; }
@@ -1033,6 +1086,8 @@ footer {
      =========================== -->
 <section class="hero" id="top">
   <div class="hero-name-vertical" aria-hidden="true">後藤堅太郎</div>
+  <img class="hero-deco-smoke" src="images/deco-01-smoke.png" alt="" aria-hidden="true">
+  <img class="hero-deco-hanko" src="images/deco-03-hanko.png" alt="" aria-hidden="true">
   <div class="container hero-inner">
     <div>
       <span class="hero-label">Kentaro Gotoh / FUKUOKA CONNECT</span>
@@ -1070,6 +1125,7 @@ footer {
      WHY
      =========================== -->
 <section id="why">
+  <img class="why-deco-brush" src="images/deco-02-brush.png" alt="" aria-hidden="true">
   <div class="container">
     <span class="sect-num reveal">01 — Why</span>
     <h2 class="sect-title reveal">
@@ -1387,7 +1443,7 @@ footer {
   <div class="container-wide">
     <div class="footer-inner">
       <div>
-        <div class="footer-sig">後藤 堅太郎</div>
+        <div class="footer-sig">後藤 堅太郎<img class="hanko" src="images/deco-03-hanko.png" alt="" aria-hidden="true"></div>
         <div class="footer-sig-en">Kentaro Gotoh</div>
         <div class="footer-meta">
           想夫恋 宇美店 二代目 / FUKUOKA CONNECT 代表<br>
